@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: api-gateway-svc
+  profiles:
+    active: development
+  config:
+    import: optional:configserver:http://localhost:8888
+  cloud:
+    config:
+      username: technoo
+      password: <9LLW342'AJR
